@@ -412,9 +412,7 @@ unsigned short checksum(unsigned short* buf, int len) {
 所有Winsock函数失败时返回`SOCKET_ERROR`，可通过`WSAGetLastError()`获取具体错误码（如10061表示连接被拒绝，10049表示地址不可用）。
 
 ### 七、winsocket函数
-好的，我们来深入探讨一下 Winsock 的函数。
-
-Winsock（Windows Sockets API）是 Windows 平台上进行网络编程的核心接口，它提供了一系列函数用于创建套接字、建立连接、数据传输等操作。下面我将为你详细梳理 Winsock 中最常用的函数，包括它们的定义、参数说明和使用示例。  
+Winsock（Windows Sockets API）是 Windows 平台上进行网络编程的核心接口，它提供了一系列函数用于创建套接字、建立连接、数据传输等操作.
 
 ---
 
